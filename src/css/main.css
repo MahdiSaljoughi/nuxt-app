@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: rgb(250 250 250);
+    color: rgb(63 63 70);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    direction: rtl;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: dana;
+}
+
+html.dark body {
+    background-color: rgb(24 24 27);
+    color: rgb(244 244 245)
+}
+
+@font-face {
+    font-family: moraba;
+    src: url(/public/fonts/Morabba/woff2/Morabba-Bold.woff2), format(woff2);
+}
+
+@font-face {
+    font-family: dana;
+    src: url(/public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2), format(woff2);
+}
+
+@font-face {
+    font-family: danamd;
+    src: url(/public/fonts/Dana/woff2/DanaFaNum-Medium.woff2), format(woff2);
+}
+
+@font-face {
+    font-family: danalg;
+    src: url(/public/fonts/Dana/woff2/DanaFaNum-Regular.woff2), format(woff2);
+}
