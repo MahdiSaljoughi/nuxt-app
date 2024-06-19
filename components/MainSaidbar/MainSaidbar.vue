@@ -1,5 +1,5 @@
 <template>
-  <aside id="saidebar">
+  <aside id="saidebar" class="hidden">
     <div
       class="hidden md:block bg-zinc-100 dark:bg-zinc-800 w-[250px] h-screen fixed top-[69px] shadow-lg"
     >

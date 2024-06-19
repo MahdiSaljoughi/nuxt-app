@@ -1,8 +1,6 @@
 <template>
-  <aside
-    class="block md:hidden bg-zinc-100 dark:bg-zinc-800 w-[250px] h-screen fixed top-[62px] shadow-lg"
-  >
-    <div>
+  <aside id="saidebarM" class="hidden">
+    <div class="block md:hidden bg-zinc-100 dark:bg-zinc-800 w-[250px] h-screen fixed top-[62px] shadow-lg">
       <div class="flex flex-col gap-y-2 my-2 md:hidden w-full">
         <div>
           <nuxt-link

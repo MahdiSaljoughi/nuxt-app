@@ -85,7 +85,7 @@
       </div>
     </div>
   </header>
-  <MobileSaidbar id="saidebarM" />
+  <MobileSaidbar />
 </template>
 
 <script setup>
