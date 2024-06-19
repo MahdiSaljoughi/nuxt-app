@@ -15,7 +15,6 @@
     "strapi": "^3.6.11",
     "vue": "^3.4.27",
     "vue-router": "^4.3.3",
-    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@nuxtjs/strapi": "^1.12.0",
